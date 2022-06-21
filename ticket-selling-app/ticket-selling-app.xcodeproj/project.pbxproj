@@ -14,6 +14,13 @@
 		4E6669732861EC2400418485 /* ticket_selling_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E6669712861EC2400418485 /* ticket_selling_app.xcdatamodeld */; };
 		4E6669752861EC2400418485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6669742861EC2400418485 /* Assets.xcassets */; };
 		4E6669782861EC2400418485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6669762861EC2400418485 /* LaunchScreen.storyboard */; };
+		4E6669832861F48A00418485 /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6669822861F48A00418485 /* Invitation.swift */; };
+		4E6669852861F5CF00418485 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6669842861F5CF00418485 /* Ticket.swift */; };
+		4E6669872861F61000418485 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6669862861F61000418485 /* Bag.swift */; };
+		4E6669892861F7E900418485 /* Audience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6669882861F7E900418485 /* Audience.swift */; };
+		4E66698B2861F82900418485 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E66698A2861F82900418485 /* TicketOffice.swift */; };
+		4E66698D2861F87000418485 /* TicketSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E66698C2861F87000418485 /* TicketSeller.swift */; };
+		4E66698F2861F8A300418485 /* Theater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E66698E2861F8A300418485 /* Theater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		4E6669742861EC2400418485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E6669772861EC2400418485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E6669792861EC2400418485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6669822861F48A00418485 /* Invitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
+		4E6669842861F5CF00418485 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		4E6669862861F61000418485 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		4E6669882861F7E900418485 /* Audience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audience.swift; sourceTree = "<group>"; };
+		4E66698A2861F82900418485 /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
+		4E66698C2861F87000418485 /* TicketSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSeller.swift; sourceTree = "<group>"; };
+		4E66698E2861F8A300418485 /* Theater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,13 @@
 				4E6669762861EC2400418485 /* LaunchScreen.storyboard */,
 				4E6669792861EC2400418485 /* Info.plist */,
 				4E6669712861EC2400418485 /* ticket_selling_app.xcdatamodeld */,
+				4E6669822861F48A00418485 /* Invitation.swift */,
+				4E6669842861F5CF00418485 /* Ticket.swift */,
+				4E6669862861F61000418485 /* Bag.swift */,
+				4E6669882861F7E900418485 /* Audience.swift */,
+				4E66698A2861F82900418485 /* TicketOffice.swift */,
+				4E66698C2861F87000418485 /* TicketSeller.swift */,
+				4E66698E2861F8A300418485 /* Theater.swift */,
 			);
 			path = "ticket-selling-app";
 			sourceTree = "<group>";
@@ -141,10 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E66698D2861F87000418485 /* TicketSeller.swift in Sources */,
 				4E6669732861EC2400418485 /* ticket_selling_app.xcdatamodeld in Sources */,
+				4E6669852861F5CF00418485 /* Ticket.swift in Sources */,
+				4E66698B2861F82900418485 /* TicketOffice.swift in Sources */,
+				4E6669872861F61000418485 /* Bag.swift in Sources */,
+				4E6669832861F48A00418485 /* Invitation.swift in Sources */,
+				4E66698F2861F8A300418485 /* Theater.swift in Sources */,
 				4E66696D2861EC2400418485 /* ViewController.swift in Sources */,
 				4E6669692861EC2400418485 /* AppDelegate.swift in Sources */,
 				4E66696B2861EC2400418485 /* SceneDelegate.swift in Sources */,
+				4E6669892861F7E900418485 /* Audience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
