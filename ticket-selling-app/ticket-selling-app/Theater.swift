@@ -15,18 +15,6 @@ class Theater {
     }
     
     func enter(_ audience: Audience) {
-        if audience.bag.hasInvitation {
-            guard let ticket = ticketSeller.ticketOffice.tickets.first else {
-                return
-            }
-            audience.bag.setTicket(ticket)
-        } else {
-            guard let ticket = ticketSeller.ticketOffice.tickets.first else {
-                return
-            }
-            audience.bag.minusAmount(ticket.fee)
-            ticketSeller.ticketOffice.plusAmount(ticket.fee)
-            audience.bag.setTicket(ticket)
-        }
+        ticketSeller.sellTo(audience)
     }
 }

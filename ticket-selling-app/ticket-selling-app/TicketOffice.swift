@@ -16,6 +16,10 @@ class TicketOffice {
         self.tickets = tickets
     }
     
+    func getTicket() -> Ticket {
+        return tickets.removeFirst()
+    }
+    
     func addTickets(_ tickets: [Ticket]) {
         tickets.forEach({
             self.tickets.append($0)
